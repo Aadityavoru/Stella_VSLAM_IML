@@ -1,0 +1,27 @@
+# Camera configuration for RealSense RGB-D SLAM
+Camera.name: "Intel RealSense"
+Camera.setup: "RGBD"
+
+Camera.fx: 615.0
+Camera.fy: 615.0
+Camera.cx: 320.0
+Camera.cy: 240.0
+
+Camera.k1: 0.0
+Camera.k2: 0.0
+Camera.p1: 0.0
+Camera.p2: 0.0
+Camera.k3: 0.0
+
+Camera.fps: 30.0
+Camera.cols: 640
+Camera.rows: 480
+
+DepthMapFactor: 5000.0
+
+# ORB Extractor Parameters
+Feature.max_num_keypoints: 2000
+Feature.scale_factor: 1.2
+Feature.num_levels: 8
+Feature.init_threshold: 20
+Feature.min_threshold: 7

@@ -1,0 +1,30 @@
+# Camera configuration
+Camera:
+  name: "Intel RealSense D435"
+  setup: "monocular"
+  model: "perspective"
+  color_order: "RGB"
+
+  # Camera calibration and distortion parameters
+  fx: 608.196533203125
+  fy: 607.997863769531
+  cx: 325.181243896484
+  cy: 243.168731689453
+
+  k1: 0.0
+  k2: 0.0
+  p1: 0.0
+  p2: 0.0
+  k3: 0.0
+
+  fps: 30.0
+  cols: 640
+  rows: 480
+
+# ORB feature parameters
+Feature:
+  max_num_keypoints: 2000
+  scale_factor: 1.2
+  num_levels: 8
+  ini_fast_threshold: 20
+  min_fast_threshold: 7

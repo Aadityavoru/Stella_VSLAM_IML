@@ -1,0 +1,43 @@
+Camera:
+  model: "perspective"
+  fx: 608.958435
+  fy: 608.723389
+  cx: 321.793488
+  cy: 240.326843
+  k1: 0.0
+  k2: 0.0
+  p1: 0.0
+  p2: 0.0
+  k3: 0.0
+  fps: 30
+  cols: 640
+  rows: 480
+  color_order: "RGB"
+
+ORBextractor:
+  name: "ORB_SLAM"  # Add this line
+  nFeatures: 1000
+  scaleFactor: 1.2
+  nLevels: 8
+  iniThFAST: 20
+  minThFAST: 7
+
+Tracking:
+  depth_threshold: 10.0
+  depthmap_factor: 1000.0
+
+Initializer:
+  num_min_triangulated_pts: 400
+
+PangolinViewer:
+  keyframe_size: 0.07
+  keyframe_line_width: 1
+  graph_line_width: 1
+  point_size: 2
+  camera_size: 0.08
+  camera_line_width: 3
+  viewpoint_x: 0
+  viewpoint_y: -0.65
+  viewpoint_z: -1.9
+  viewpoint_f: 400
+
